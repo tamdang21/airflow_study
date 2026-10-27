@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+logs/
+.env
+
+# file do DAG sinh ra mỗi lần chạy
+dags/*_user*.json
+dags/insert_users_*.sql
+dags/*_price.json
+dags/*_usd.txt
